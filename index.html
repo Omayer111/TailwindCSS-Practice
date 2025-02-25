@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Example</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+
+  <p>This paragraph is just for implementing the base layer for Tailwind.</p>
+  <br />
+  
+  <h1 class="special-h1">This is for custom utility class</h1>
+  <br />
+  
+  <div class="my-4 flex h-10 w-full items-center justify-center rounded-md border-2 border-violet-600 bg-violet-200 p-2">
+    <h1 class="text-center font-mono text-[15px] font-extrabold">Hello World</h1>
+  </div>
+  
+  <div class="flex space-x-6 justify-self-end">
+    <div class="card w-10 h-10 rounded-full bg-red-900"></div>
+    <div class="card w-10 h-10 rounded-full bg-green-900"></div>
+    <div class="card w-10 h-10 rounded-full bg-blue-900"></div>
+  </div>
+  
+  <div class="flex flex-col items-baseline space-y-6 mt-4">
+    <div class="card w-10 h-10 rounded-full bg-red-900"></div>
+    <div class="card w-10 h-10 rounded-full bg-green-900"></div>
+    <div class="card w-10 h-10 rounded-full bg-blue-900"></div>
+  </div>
+  
+  <br />
+  
+  <div class="grid grid-cols-3 gap-4">
+    <div class="card w-10 h-10 rounded-full bg-red-900"></div>
+    <div class="card w-10 h-10 rounded-full bg-green-900"></div>
+    <div class="card w-10 h-10 rounded-full bg-blue-900"></div>
+    <div class="card w-10 h-10 rounded-full bg-red-900"></div>
+    <div class="card w-10 h-10 rounded-full bg-green-900"></div>
+    <div class="card w-10 h-10 rounded-full bg-blue-900"></div>
+  </div>
+  
+  <div class="sm:bg-amber-950 md:bg-blue-950 lg:bg-cyan-950 mt-6 p-4">
+    <h1 class="text-white">This will appear for screen size GE 200px</h1>
+  </div>
+  
+  <div class="bg-white text-black dark:bg-black dark:text-chestnut mt-4 p-4">
+    <h1 class="text-white">This will appear for screen size</h1>
+  </div>
+
+</body>
+</html>
