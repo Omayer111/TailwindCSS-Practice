@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TailwindCSS practice</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white p-8">
+
+  <p>This is a paragraph to test the base layer in Tailwind.</p>
+
+  <h1 class="special-h1">Custom Utility Class Example</h1>
+
+  <div class="my-4 flex h-12 w-full items-center justify-center rounded-md border-2 border-violet-600 bg-violet-200 p-3">
+    <h1 class="text-center font-mono text-[18px] font-extrabold text-black">Hello World</h1>
+  </div>
+
+  <div class="flex space-x-6 justify-self-end">
+    <div class="card bg-red-900">1</div>
+    <div class="card bg-green-900">2</div>
+    <div class="card bg-blue-900">3</div>
+  </div>
+
+  <div class="flex flex-col items-center space-y-6 mt-4">
+    <div class="card bg-yellow-500">A</div>
+    <div class="card bg-purple-500">B</div>
+    <div class="card bg-teal-500">C</div>
+  </div>
+
+  <div class="grid grid-cols-3 gap-4 mt-6">
+    <div class="card bg-red-600">X</div>
+    <div class="card bg-green-600">Y</div>
+    <div class="card bg-blue-600">Z</div>
+    <div class="card bg-red-700">1</div>
+    <div class="card bg-green-700">2</div>
+    <div class="card bg-blue-700">3</div>
+  </div>
+
+  <div class="sm:bg-amber-950 md:bg-blue-950 lg:bg-cyan-950 mt-6 p-4">
+    <h1 class="text-white">This will change color based on screen size</h1>
+  </div>
+
+  <div class="bg-white text-black dark:bg-black dark:text-white mt-6 p-4">
+    <h1>This text changes in dark mode</h1>
+  </div>
+
+  <div class="mt-6 flex justify-center space-x-4">
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-accent">Accent</button>
+  </div>
+
+  <div class="mt-6 p-4 border-2 border-glow rounded-lg text-center">
+    <h2 class="text-3xl font-bold text-primary">Border Glow Effect</h2>
+  </div>
+
+  <div class="mt-6 flex justify-around">
+    <div class="w-24 h-24 border border-secondary rounded-full flex items-center justify-center">
+      <h3 class="text-xl text-secondary">Circle</h3>
+    </div>
+    <div class="w-24 h-24 border border-primary rounded-lg flex items-center justify-center">
+      <h3 class="text-xl text-primary">Square</h3>
+    </div>
+  </div>
+
+</body>
+</html>
