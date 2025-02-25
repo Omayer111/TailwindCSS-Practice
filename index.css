@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-chestnut: #ffffff;
+}
+
+@layer base {
+  p {
+    @apply font-sans text-2xl font-extrabold text-green-500;
+  }
+}
+
+@layer components {
+  .card {
+    @apply h-10 w-10;
+  }
+}
+
+@layer utilities {
+  .special-h1 {
+    font-size: 25px;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+
+body {
+  background-color: #10172a;
+}
